@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Bill Kremer",
+    "githubUserName": "billkremer",
+    "shoutout": ""
+  },
+  {
+    "name": "Bob Hinkley",
+    "githubUserName": "Bob-Hinkley"
+  },
+   {
+     "name" : "Charles Kuruvila",
+     "githubUserName" : "ckuruvi"
+   },
+   {
+     "name" : "Charlie Garnaas",
+     "githubUserName" : "chargar"
+   },
+   {
+     "name" : "erik nelson",
+     "githubUserName" : "ejnelson"
+   },
+   {
+     "name" : "Erik Noonan",
+     "githubUserName" : "noonsky"
+   },
+   {
+     "name" : "Ethan Coyne",
+     "githubUserName" : "ethancoyne"
+   },
+   {
+     "name" : "Hue Huam Vang",
+     "githubUserName" : "HueVang"
+   },
+   {
+     "name" : "James Jake Jacobs-Smith",
+     "githubUserName" : "jacobjv25"
+   },
+   {
+     "name" : "Mathias Balogh",
+     "githubUserName" : "mathiasbalogh"
+   },
+   {
+     "name" : "Nathaniel Wingo",
+     "githubUserName" : "nwingo"
+   },
+   {
+     "name" : "Nolan Raadt",
+     "githubUserName" : "nolanraadt"
+   },
+   {
+     "name" : "Priscilla Gyamfi",
+     "githubUserName" : "pyg4732"
+   },
+   {
+     "name" : "Rukia SheikhMohamed",
+     "githubUserName" : "prukia"
+   },
+   {
+     "name" : "Scott Fox",
+     "githubUserName" : "scottfox5"
+   },
+   {
+     "name" : "Shrikanth Parthasarathy",
+     "githubUserName" : "shrikanth999"
+   },
+   {
+     "name" : "Tyler Herman",
+     "githubUserName" : "TheHerms"
+   }
+]
