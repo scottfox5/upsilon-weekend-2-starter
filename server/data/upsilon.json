@@ -1,71 +1,82 @@
 [
   {
+    "name": "Ahkillah Davis",
+    "githubUserName": "adavi12",
+    "shoutout": "Dear AH-KILL-AH - Thank you for sitting next to me. You are nice."
+  },
+  {
     "name": "Bill Kremer",
     "githubUserName": "billkremer",
-    "shoutout": ""
+    "shoutout": "Bill, for being so kind"
   },
   {
     "name": "Bob Hinkley",
-    "githubUserName": "Bob-Hinkley"
+    "githubUserName": "Bob-Hinkley",
+    "shoutout":"Thanks Bob, for being so happy" 
   },
    {
      "name" : "Charles Kuruvila",
-     "githubUserName" : "ckuruvi"
+     "githubUserName" : "ckuruvi",
+     "shoutout": "Shoutout to Charles for being such a big help with walking through questions I have."
    },
    {
      "name" : "Charlie Garnaas",
-     "githubUserName" : "chargar"
+     "githubUserName" : "chargar",
+     "shoutout": "Thanks to Charlie for his endless passion for GIFs. It never ceases to bring levity to the room."
    },
    {
      "name" : "erik nelson",
-     "githubUserName" : "ejnelson"
+     "githubUserName" : "ejnelson",
+     "shoutout": "Thank you Erik for great feedback with coding and different ways to go about it."
    },
    {
      "name" : "Erik Noonan",
-     "githubUserName" : "noonsky"
+     "githubUserName" : "noonsky",
+     "shoutout": "I really appreciate Erik's vulnerability during speech topics"
    },
    {
      "name" : "Ethan Coyne",
-     "githubUserName" : "ethancoyne"
+     "githubUserName" : "ethancoyne",
+     "shoutout": "props to ethan for knowing what the heroes journey is"
    },
    {
      "name" : "Hue Huam Vang",
-     "githubUserName" : "HueVang"
+     "githubUserName" : "HueVang",
+     "shoutout": "I would like to give Hue a shoutout for being a great deskmate and being very helpful to me."
    },
    {
      "name" : "James Jake Jacobs-Smith",
-     "githubUserName" : "jacobjv25"
+     "githubUserName" : "jacobjv25",
+     "shoutout": "Thank you to Jake for making me blush."
    },
    {
      "name" : "Mathias Balogh",
-     "githubUserName" : "mathiasbalogh"
-   },
-   {
-     "name" : "Nathaniel Wingo",
-     "githubUserName" : "nwingo"
+     "githubUserName" : "mathiasbalogh",
+     "shoutout": "Thank you Mathias for your gangster-like ways and continued support in all the code that i write. I shall call you gandalf the grey."
    },
    {
      "name" : "Nolan Raadt",
-     "githubUserName" : "nolanraadt"
+     "githubUserName" : "nolanraadt",
+     "shoutout": "Thanks to Nolan for being the cutest Coffee Shop Guy around."
    },
    {
      "name" : "Priscilla Gyamfi",
-     "githubUserName" : "pyg4732"
+     "githubUserName" : "pyg4732",
+     "shoutout": "Priscilla is thoughtful and asks good questions."
    },
    {
      "name" : "Rukia SheikhMohamed",
-     "githubUserName" : "prukia"
+     "githubUserName" : "prukia",
+     "shoutout": "Rukia's style is on point"
    },
    {
      "name" : "Scott Fox",
-     "githubUserName" : "scottfox5"
-   },
-   {
-     "name" : "Shrikanth Parthasarathy",
-     "githubUserName" : "shrikanth999"
+     "githubUserName" : "scottfox5",
+     "shoutout": "Dear Scotty aka \"scotty doesn't know\" thank you for your ongoing support in helping with functions"
    },
    {
      "name" : "Tyler Herman",
-     "githubUserName" : "TheHerms"
+     "githubUserName" : "TheHerms",
+     "shoutout": "Thanks for Slacking me the speech topic!"
    }
 ]
