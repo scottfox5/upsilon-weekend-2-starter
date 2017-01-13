@@ -14,6 +14,11 @@
     "githubUserName": "Bob-Hinkley",
     "shoutout":"Thanks Bob, for being so happy" 
   },
+  {
+    "name" : "Brian Schorn",
+    "githubUserName" : "relCORE",
+    "shoutout" : "Brian, thanks for asking questions that I'm also thinking about!" 
+  },
    {
      "name" : "Charles Kuruvila",
      "githubUserName" : "ckuruvi",
