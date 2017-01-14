@@ -1,4 +1,5 @@
-# Running the Server
+#Weekend 2 Challenge
 
-This challenge will require you to setup and run the application in this repository.
-See the assignment directions if you need a refresher on how to run this.
+##Scott Fox
+
+This project is a carousel of students displayed on the page. Each is displayed one at a time, and the user can scroll through the students with previous and next buttons. 
