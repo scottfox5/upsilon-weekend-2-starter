@@ -5,16 +5,29 @@ $(function(){
 
   $('#nextButton').click(nextPerson);//When button is clicked, getPeople is run and all info is collected and appended to DOM
   $('#previousButton').click(previousPerson);//
+  appendIndexBar();
 
 });
 
-function appendDom(person){
+function appendPerson(person){
   var $personDiv = $('<div class ="person" id='+personCounter+'></div>');//Setting jQuery variable of div to be appended
   $personDiv.append('<p>' + person.githubUserName + '</p>');//Adding property information to append to div
   $personDiv.append('<p>' + person.name + '<p/>');
   $personDiv.append('<p>' + person.shoutout + '<p/>');
   $('#ajax-data').append($personDiv);//Appending properties of person object to DOM
 };
+
+function appendIndexBar(){
+  $.ajax({
+    type: "GET",
+    url: "/data",
+    success: function(response){
+      for (var i = 0; i < response.length; i++){
+        $('#indexSection').append('<div class="index" id='+i+'>x</div>');
+      }
+    }
+  });
+}
 
 function nextPerson(){
   getPerson();
@@ -43,8 +56,8 @@ function getPerson(){
     type: "GET",
     url: "/data",
     success: function(response){
-      console.log(response[personCounter]);
-      appendDom(response[personCounter]);
+      //console.log(response[personCounter]);//Test to verify array data is accessible
+      appendPerson(response[personCounter]);
     }
   });
 }

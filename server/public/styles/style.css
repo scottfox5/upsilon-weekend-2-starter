@@ -8,3 +8,11 @@ button {
   padding: 20px;
   margin: 20px;
 }
+
+.index {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  margin: 5px;
+}
