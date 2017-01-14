@@ -26,8 +26,7 @@ function getPerson(){
     type: "GET",
     url: "/data",
     success: function(response){
-      //console.log(response[personCounter]);//Test to verify array data is accessible
-      appendPerson(response[personCounter]);
+      appendPerson(response[personCounter]);//Request and receive data for student at index of value of personCounter
     }
   });
 }
@@ -38,8 +37,7 @@ function appendPerson(person){
   $personDiv.append('<p>' + person.name + '<p/>');
   $personDiv.append('<p>' + person.shoutout + '<p/>');
   //$('#ajax-data').append($personDiv);//Appending DOM with properties of current person object.
-  //console.log(personCounter)//Testing
-  $($personDiv).fadeIn(1000, function() { $(this).appendTo('#ajax-data'); });//Attempting to fade in.
+  $($personDiv).fadeIn(200, function() { $(this).appendTo('#ajax-data'); });//Append DOM with fade in
 }
 
 function nextPerson(){
@@ -49,6 +47,7 @@ function nextPerson(){
     personCounter = 0;
   };
   removePeople();
+  indexPerson();
 }
 
 function previousPerson(){
@@ -58,10 +57,15 @@ function previousPerson(){
     personCounter = 15;
   };
   removePeople();
+  indexPerson();
 }
 
 function removePeople(){//Remove all people with class of person except the one with id of current personCounter
-  //$(".person:not(#personNumber"+personCounter+")").remove();
-  $(".person:not(#personNumber"+personCounter+")").fadeOut(1000, function() { $(this).remove(); })
-  console.log(personCounter);
+  //$(".person:not(#personNumber"+personCounter+")").remove();//Removes without fade out
+  $(".person:not(#personNumber"+personCounter+")").fadeOut(200, function() { $(this).remove(); })//Removes with fade out
+}
+
+function indexPerson(){
+  $('.index').css('background-color', 'black')
+  $('#indexNumber'+personCounter+'').css('background-color', 'goldenrod');
 }
