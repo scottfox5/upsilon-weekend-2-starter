@@ -15,7 +15,7 @@ function appendIndexBar(){
     url: "/data",
     success: function(response){
       for (var i = 0; i < response.length; i++){
-        $('#indexSection').append('<div class="index" id='+i+'></div>');
+        $('#indexSection').append('<div class="index" id=indexNumber'+i+'></div>');
       }
     }
   });
@@ -33,32 +33,35 @@ function getPerson(){
 }
 
 function appendPerson(person){
-  var $personDiv = $('<div class ="person" id='+personCounter+'></div>');//Setting jQuery variable of div to be appended
+  var $personDiv = $('<div class ="person" id=personNumber'+personCounter+'></div>');//Setting jQuery variable of div to be appended
   $personDiv.append('<p>' + person.githubUserName + '</p>');//Adding property information to append to div
   $personDiv.append('<p>' + person.name + '<p/>');
   $personDiv.append('<p>' + person.shoutout + '<p/>');
-  $('#ajax-data').append($personDiv);//Appending properties of person object to DOM
-  console.log(personCounter)
-};
+  //$('#ajax-data').append($personDiv);//Appending DOM with properties of current person object.
+  //console.log(personCounter)//Testing
+  $($personDiv).fadeIn(1000, function() { $(this).appendTo('#ajax-data'); });//Attempting to fade in.
+}
 
 function nextPerson(){
   getPerson();
-  //removePeople();
   personCounter++;
   if (personCounter > 15){//Resetting personCounter for nextButton so clicking on last will bring to first
     personCounter = 0;
   };
+  removePeople();
 }
 
 function previousPerson(){
   getPerson();
-  //removePeople();
   personCounter--;
   if (personCounter < 0){//Resetting personCounter for nextButton so clicking on last will bring to first
     personCounter = 15;
   };
+  removePeople();
 }
 
-// function removePeople(){//Trying to remove all people with class of person except the one with id of current personCounter
-//   (".person:not(#"+personCounter+")").remove();
-// }
+function removePeople(){//Remove all people with class of person except the one with id of current personCounter
+  //$(".person:not(#personNumber"+personCounter+")").remove();
+  $(".person:not(#personNumber"+personCounter+")").fadeOut(1000, function() { $(this).remove(); })
+  console.log(personCounter);
+}

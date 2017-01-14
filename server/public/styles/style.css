@@ -11,8 +11,13 @@ button {
 
 .index {
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   background-color: black;
   margin: 5px;
+}
+
+#ajax-data{
+  padding: 20px;
+  height: 100px;
 }
