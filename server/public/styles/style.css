@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: lightgray;
 }
 
 button {
@@ -13,11 +14,19 @@ button {
   display: inline-block;
   height: 30px;
   width: 30px;
-  background-color: black;
   margin: 5px;
+  background-color: black;
 }
 
-#ajax-data{
+#ajax-data div {
   padding: 20px;
   height: 100px;
+  background-color: gray;
+  width: 400px;
+}
+
+#carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
